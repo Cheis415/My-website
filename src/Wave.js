@@ -16,8 +16,9 @@ function Wave() {
         360,320C240,320,120,320,60,320L0,320Z"></path>
       </svg>
     <div className="our-partners">
-    
-    <h3>Here I am!</h3>
+    <p className="about-me-header"><b>A little about me,</b></p>
+    <p className="about-me"><b>I am a Software Developer, thanks to the guidance of Code Tenderloin and Rithm School. Previously a carpenter and supervisor in construction, I'm applying years of time-sensitive problem solving and collaboration skills (and a healthy sense of humor) to coding.</b> </p>
+    <h3>Find me here:</h3>
     <div className="our-partners-inner">
         <a href="mailto:chadheisler5@gmail.com"><img className="gmail ic" src={gmail} alt="gmail" /></a>
         <a href="https://github.com/Cheis415?tab=repositories"><img className="github ic" src={github} alt="github" /></a>

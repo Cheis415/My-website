@@ -32,7 +32,8 @@
 .our-partners h3 {
     border-color: #fff;
     font-size: 5em;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
+    padding-top: 15px;
     color: #007193;
 }
 
@@ -63,4 +64,14 @@
 .ic {
     height: auto;
     width: 12vw;
+}
+
+.about-me {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.about-me-header {
+    font-size: 30px;
+    padding-bottom: 10px;
 }
