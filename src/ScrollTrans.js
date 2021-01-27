@@ -30,7 +30,7 @@ function ScrollTrans() {
   endless debates with friends. This is still a work in progress, and we have a lot of functionality that we would like to add. Stay tuned!`;
    
   useEffect(() => {
-    AOS.init({ duration: 2000 });
+    AOS.init({ duration: 3000 });
   }, [])
   return (
     <div className="mainDiv">
