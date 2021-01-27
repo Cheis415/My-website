@@ -1,0 +1,52 @@
+.Card-div {
+    width: 90vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .c {
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+    background-color:#007193;
+    overflow: hidden;
+    height:auto;
+    width: 90vw;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+    position: absolute;
+    cursor: pointer;
+    will-change: transform, opacity;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+  .front :first-child {
+    position: relative;
+  }
+  
+  .front,
+  .back {
+    background-size: cover;
+    width: 90vw;
+    height: 100%;
+  }
+  
+  .front {
+    background-image: url(https://wallpaperaccess.com/full/701597.png);
+
+  }
+  .text {
+    font-size: 2em;
+    padding-left: .5em;
+    padding-right: .5em;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  

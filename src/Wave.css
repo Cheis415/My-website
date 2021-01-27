@@ -1,0 +1,66 @@
+.wave {
+    border: none;
+    position: relative;
+    width: 100%;
+    bottom: -4vh;
+    color: #fff;
+    opacity: 1;
+    background-position: center;
+   background-size: cover;
+   overflow: hidden;
+   background-blend-mode: overlay;
+
+}
+
+.wrap {
+   background-color: transparent;
+   padding-top: 0;
+   margin-top: 0; 
+   background-position: center;
+   background-size: cover;
+   position: relative;
+   overflow: hidden;
+   background-blend-mode: overlay;
+}
+
+.our-partners {
+
+    padding: 0 80px;
+    position: relative;
+    background-color: #fff;
+}
+.our-partners h3 {
+    border-color: #fff;
+    font-size: 5em;
+    margin-bottom: 15px;
+    color: #007193;
+}
+
+.our-partners-inner {
+    display: flex;
+    margin-top: 50px;
+}
+.our-partners-inner a {
+    /* display: inline-block; */
+    width: 20%;
+    height: auto;
+    padding: 25px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.our-partners-inner p {
+    display: inline-block;
+    width: 80%;
+    padding: 15px;
+    /* margin-right: 50px;
+    border-radius: 20px; */
+    font-size: 20px;
+    position: relative;
+    bottom: 15px;
+    left: 15px;
+}
+
+.ic {
+    height: auto;
+    width: 12vw;
+}

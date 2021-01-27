@@ -1,0 +1,42 @@
+.hello {
+    z-index: 10;
+    margin-top: 10px;
+}
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    animation: type 3s steps(11);
+    overflow: hidden;
+    /* white-space: nowrap; */
+    /* border-right: 4px solid white; */
+    font-family: 'Cutive Mono', monospace;
+    color: white;
+    width: 13ch;
+    font-size: 4em;
+    max-width: 100vw;
+    justify-content: center;
+    /* margin-bottom: 5px;
+    margin-top: 5px; */
+}
+@keyframes type {
+    0% {
+        width: 0ch;
+    }
+    100% {
+        width:13ch;
+    }
+}
+
+.myname {
+    
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    width: 90vw;
+    font-size: 4em;
+    max-width: 100vw;
+    justify-content: center;
+    padding: 0.5em;
+    
+}
