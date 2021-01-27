@@ -30,15 +30,16 @@ function ScrollTrans() {
   endless debates with friends. This is still a work in progress, and we have a lot of functionality that we would like to add. Stay tuned!`;
    
   useEffect(() => {
-    AOS.init({ duration: 3000 });
+    AOS.init({ duration: 2000, offset: 100,  easing: 'ease-in-out-sine',
+    delay: 100,  });
   }, [])
   return (
     <div className="mainDiv">
         <div className="grids">
           <div data-aos="fade-right" ><h1 className="top-h1">Here are some projects!</h1>
                                       <h1 className="bot-h1"> Click to learn more!</h1></div>
-          <div data-aos="fade-down" className="boxes"><AppCard imageSource={micro} text={microText}/></div>
-          <div data-aos="fade-up" className="boxes"><AppCard imageSource={clever} text={cleverCouncil}/></div>
+          <div data-aos="fade-left" className="boxes"><AppCard imageSource={micro} text={microText}/></div>
+          <div data-aos="fade-right" className="boxes"><AppCard imageSource={clever} text={cleverCouncil}/></div>
           <div data-aos="fade-left" className="boxes"><AppCard imageSource={clash} text={clashText}/></div>
         </div>
       </div>
