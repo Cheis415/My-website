@@ -5,6 +5,7 @@
     bottom: -4vh;
     color: #fff;
     opacity: 1;
+    min-width: 100vw;
     background-position: center;
    background-size: cover;
    overflow: hidden;
@@ -13,6 +14,7 @@
 }
 
 .wrap {
+    width: 100%;
    background-color: transparent;
    padding-top: 0;
    margin-top: 0; 
@@ -31,7 +33,7 @@
 }
 .our-partners h3 {
     border-color: #fff;
-    font-size: 5em;
+    font-size: 4em;
     /* margin-bottom: 15px; */
     padding-top: 15px;
     color: #007193;
@@ -68,10 +70,15 @@
 
 .about-me {
     font-size: 25px;
-    padding-bottom: 20px;
+    color: rgb(40, 180, 215);
+    /* padding: 10px;
+    border: solid #007193 2px;
+    border-radius: 10px; */
+    
 }
 
 .about-me-header {
-    font-size: 30px;
+    color: rgb(40, 180, 215);
+    font-size: 40px;
     padding-bottom: 10px;
 }

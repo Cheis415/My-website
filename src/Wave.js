@@ -3,7 +3,7 @@ import "./Wave.css";
 import gmail from "./img/gmail (4).png";
 import linkedin from "./img/linkedin-logo-png-clip-art.png";
 import github from "./img/githubpic.png";
-import resume from "./img/resume-transparent-png-icon-png-download (1).png";
+import resume from "./img/Resume.png";
 
 function Wave() {
 

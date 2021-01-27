@@ -75,3 +75,9 @@
     justify-content: center;
     padding-bottom: 0.5em;
 }
+
+.arrow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
