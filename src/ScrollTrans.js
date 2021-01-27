@@ -17,7 +17,7 @@ function ScrollTrans() {
   history.push to save blog posts to local storage and to leave likes. 
   I enjoyed the challenge of writing a front-end only app, but having it feel fully featured. `;
   
-  let cleverCouncil = `Clever Council is a  production app that I worked on as an intern. It uses a React 
+  let cleverCouncil = `Clever Counsel is a  production app that I worked on as an intern. It uses a React 
   front-end, a Flask back-end, and a MySQL database. This app automates a lot of the
   process of filing wage disputes for lawyers and their clients, saving them time and money. I learned what it takes
   to work for a company day-to-day as a developer, merging several pull requests, collaborating with a diverse team,
