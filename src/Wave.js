@@ -16,7 +16,7 @@ function Wave() {
         360,320C240,320,120,320,60,320L0,320Z"></path>
       </svg>
     <div className="our-partners">
-    <p className="about-me-header"><b>A little about me,</b></p>
+    <p className="about-me-header"><b>A little about me</b></p>
     <p className="about-me"><b>I am a Software Developer, thanks to the guidance of Code Tenderloin and Rithm School. Previously a carpenter and supervisor in construction, I'm applying years of time-sensitive problem solving and collaboration skills (and a healthy sense of humor) to coding.</b> </p>
     <h3>Find me here</h3>
     <div className="our-partners-inner">

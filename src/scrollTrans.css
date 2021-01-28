@@ -24,7 +24,7 @@
     align-self: center;
     justify-content: space-between;
     margin: auto;
-    min-width: 75vw;
+   
 }
 
 .mainDiv {
@@ -49,8 +49,8 @@
     flex-wrap: wrap;
     color: white;
     width: 90vw;
+    text-align: center;
     font-size: 4em;
-    max-width: 100vw;
     justify-content: center;
 }
 
@@ -60,7 +60,7 @@
     color: white;
     width: 90vw;
     font-size: 4em;
-    max-width: 100vw;
+    text-align: center;
     justify-content: center;
     padding-top: 0.5em;
 }
@@ -71,7 +71,7 @@
     color: white;
     width: 90vw;
     font-size: 4em;
-    max-width: 100vw;
+    text-align: center;
     justify-content: center;
     padding-bottom: 0.5em;
 }
@@ -81,3 +81,21 @@
     flex-direction: column;
     justify-content: center; 
 }
+
+/* @media screen and (max-width: 601px) {
+    div.bot-h1 {
+      font-size: .5em;
+    }
+  }
+
+  @media screen and (max-width: 601px) {
+    div.top-h1 {
+      font-size: .5em;
+    }
+  } */
+
+  @media screen and (max-width: 601px) {
+    div.arrow {
+      size: 2ch;
+    }
+  }
