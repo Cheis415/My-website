@@ -5,7 +5,7 @@
     bottom: -4vh;
     color: #fff;
     opacity: 1;
-    min-width: 100vw;
+    /* min-width: 100vw; */
     background-position: center;
    background-size: cover;
    overflow: hidden;
@@ -33,7 +33,7 @@
 }
 .our-partners h3 {
     border-color: #fff;
-    font-size: 4em;
+    font-size: 5vw;
     /* margin-bottom: 15px; */
     text-align: center;
     padding-top: 20px;
@@ -59,7 +59,7 @@
     padding: 15px;
     /* margin-right: 50px;
     border-radius: 20px; */
-    font-size: 20px;
+    
     position: relative;
     bottom: 15px;
     left: 15px;
@@ -72,7 +72,7 @@
 
 .about-me {
     text-align: center;
-    font-size: 25px;
+    font-size: 2.5vw;
     color: rgb(40, 180, 215);
     /* padding: 10px;
     border: solid #007193 2px;
@@ -82,7 +82,7 @@
 
 .about-me-header {
     color: rgb(40, 180, 215);
-    font-size: 40px;
+    font-size: 3.5vw;
     padding-bottom: 10px;
     text-align: center;
 }

@@ -23,7 +23,7 @@ function Hello() {
 
   return (
     <div className="hello" onClick={() => toggle(!open)}>
-      <animated.svg style={{textAlign: "center", transform, opacity, cursor: "pointer" }} viewBox="0 0 1278 446">
+      <animated.svg className="svg" style={{textAlign: "center", transform, opacity, cursor: "pointer" }} viewBox="0 0 1278 446">
         <defs>
           <filter id="water">
             <AnimFeTurbulence type="fractalNoise" baseFrequency={freq} numOctaves="1.5" result="TURB" seed="8" />

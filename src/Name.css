@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   max-width: 75%; */
-  background-size: contain;
+  background-size: cover;
 }
 .transitions-item {
     height: auto;
@@ -14,7 +14,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    font-size: 9vw;
+    font-size: 6em;
     font-weight: 800;
     text-transform: uppercase;
     will-change: transform, opacity, height;

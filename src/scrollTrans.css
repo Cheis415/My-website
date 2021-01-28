@@ -51,7 +51,7 @@
     color: white;
     width: 90vw;
     text-align: center;
-    font-size: 4em;
+    font-size: 5.5ch;
     justify-content: center;
 }
 
@@ -60,7 +60,7 @@
     flex-wrap: wrap;
     color: white;
     width: 90vw;
-    font-size: 4em;
+    font-size: 5.5ch;
     text-align: center;
     justify-content: center;
     padding-top: 0.5em;
@@ -71,7 +71,7 @@
     flex-wrap: wrap;
     color: white;
     width: 90vw;
-    font-size: 4em;
+    font-size: 5.5ch;
     text-align: center;
     justify-content: center;
     padding-bottom: 0.5em;
