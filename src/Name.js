@@ -13,16 +13,16 @@ function Name() {
       { transform: 'perspective(600px) rotateX(0deg)' },
     ],
     leave: [{ color: '#c23369' }, { innerHeight: 0 }, { opacity: 0, height: 0 }],
-    update: { color: '#28b4d7' },
+    update: { color: '#28b4d7', margin: "10px" },
   })
 
   const reset = useCallback(() => {
     ref.current.map(clearTimeout)
     ref.current = []
     setItems([])
-    ref.current.push(setTimeout(() => setItems(['Chad,', "I'm a web", 'Developer']), 2000))
-    ref.current.push(setTimeout(() => setItems(['Chad,', 'Developer']), 5000))
-    ref.current.push(setTimeout(() => setItems(['Chad,', "I'm a web", 'Developer']), 8000))
+    ref.current.push(setTimeout(() => setItems(["I'm a" , "front-end", 'Developer']), 2000))
+    ref.current.push(setTimeout(() => setItems(["I'm a", 'Developer']), 5000))
+    ref.current.push(setTimeout(() => setItems(["I'm a", "front-end", 'Developer']), 8000))
   }, [])
 
   useEffect(() => void reset(), [reset])

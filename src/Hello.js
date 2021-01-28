@@ -37,7 +37,7 @@ function Hello() {
           />
         </g>
       </animated.svg>
-      <div data-aos="fade-left" ><h1 className="div1 myname">My name is...</h1></div>
+      <div data-aos="fade-left" ><h1 className="div1 myname">My name is Chad</h1></div>
     </div>
   )
 }

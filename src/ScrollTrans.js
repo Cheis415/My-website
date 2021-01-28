@@ -37,8 +37,8 @@ function ScrollTrans() {
   return (
     <div className="mainDiv">
         <div className="grids">
-          <div data-aos="fade-right" className="arrow" ><h1 className="top-h1">Here are some projects!</h1>
-                                      <h1 className="bot-h1"> Click to learn more!</h1><img src={arrow} alt="arrow"></img></div>
+          <div data-aos="fade-right" className="arrow" ><h1 className="top-h1">Here are some projects</h1>
+                                      <h1 className="bot-h1"> Click to learn more</h1><img src={arrow} alt="arrow"></img></div>
           <div data-aos="fade-left" className="boxes"><AppCard imageSource={micro} text={microText}/></div>
           <div data-aos="fade-right" className="boxes"><AppCard imageSource={clever} text={cleverCouncil}/></div>
           <div data-aos="fade-left" className="boxes"><AppCard imageSource={clash} text={clashText}/></div>
