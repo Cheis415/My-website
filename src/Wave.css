@@ -43,7 +43,7 @@
 
 .our-partners-inner {
     display: flex;
-    margin-top: 50px;
+    margin-top: 2ch;
 }
 .our-partners-inner a {
     /* display: inline-block; */
@@ -84,6 +84,7 @@
 .about-me-header {
     color: rgb(40, 180, 215);
     font-size: 3.5vw;
-    padding-bottom: 10px;
+    padding-bottom: 2ch;
+    padding-top: 2ch;
     text-align: center;
 }
