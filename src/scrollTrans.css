@@ -83,18 +83,6 @@
     justify-content: center; 
 }
 
-/* @media screen and (max-width: 601px) {
-    div.bot-h1 {
-      font-size: .5em;
-    }
-  }
-
-  @media screen and (max-width: 601px) {
-    div.top-h1 {
-      font-size: .5em;
-    }
-  } */
-
   @media screen and (max-width: 601px) {
     div.arrow {
       size: 2ch;

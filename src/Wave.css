@@ -14,14 +14,14 @@
 }
 
 .wrap {
-    width: 100%;
+   
+   width: 100%;
    background-color: transparent;
    padding-top: 0;
    margin-top: 0; 
    background-position: center;
    background-size: cover;
    position: relative;
-   overflow: hidden;
    background-blend-mode: overlay;
 }
 
@@ -34,7 +34,6 @@
 .our-partners h3 {
     border-color: #fff;
     font-size: 5vw;
-    /* margin-bottom: 15px; */
     text-align: center;
     padding-top: 20px;
     color: #007193;
@@ -46,7 +45,7 @@
     margin-top: 2ch;
 }
 .our-partners-inner a {
-    /* display: inline-block; */
+    
     width: 20%;
     height: auto;
     padding: 25px;
@@ -57,9 +56,6 @@
     display: inline-block;
     width: 80%;
     padding: 15px;
-    /* margin-right: 50px;
-    border-radius: 20px; */
-    
     position: relative;
     bottom: 15px;
     left: 15px;
@@ -75,10 +71,7 @@
     font-size: 2.5vw;
     color: rgb(40, 180, 215);
     padding-bottom: 2ch;
-    /* padding: 10px;
-    border: solid #007193 2px;
-    border-radius: 10px; */
-    
+
 }
 
 .about-me-header {

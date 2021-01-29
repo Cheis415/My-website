@@ -9,8 +9,6 @@
   
   .c {
     box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
-    margin-top: 2.5em;
-    margin-bottom: 2.5em;
     background-color:#007193;
     overflow: hidden;
     height:auto;
@@ -28,9 +26,7 @@
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
   }
-  .front :first-child {
-    position: relative;
-  }
+ 
   
   /* .front, */
   .back {
@@ -42,9 +38,11 @@
   
   .front {
     background-image: url(https://wallpaperaccess.com/full/701597.png);
+    background-size: cover;
     width: 100%;
     height: 100%;
-    position: absolute;
+    background-position: center;
+    box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
 
   }
   .text {
@@ -53,6 +51,7 @@
     padding-right: 1ch;
     margin-left: 2ch;
     margin-right: 2ch;
+    position: relative;
   }
 
   .back {
