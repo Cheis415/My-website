@@ -11,19 +11,18 @@
     display: flex;
     flex-wrap: wrap;
     color: white;
-    width: 100%;
+    width: 90vw;
     font-size: 4em;
     justify-content: center;
     
     
 }
 .svg {
-  width: 100%;
+  width: 90vw;
   background-position: center;
   padding: 1ch;
   justify-self: center;
   align-items: center;
   text-align: center;
   justify-content: center;
-  margin: 1ch;
 }
