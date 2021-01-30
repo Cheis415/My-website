@@ -34,7 +34,7 @@ function ScrollTrans() {
   endless debates with friends. This is still a work in progress, and we have a lot of functionality that we would like to add. Stay tuned!`;
    
   useEffect(() => {
-    AOS.init({ duration: 2000, offset: 250,  easing: 'ease-in-quart',once: false,
+    AOS.init({ duration: 2000, offset: 250,  easing: 'ease-in-quart',once: true,
       });
   }, [])
   return (

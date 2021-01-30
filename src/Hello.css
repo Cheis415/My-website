@@ -1,29 +1,9 @@
 .hello {
     z-index: 10;
     margin-top: 10px;
-    width: 100%;
+    width: 90vw;
     justify-content: center;
     text-align: center;
-}
-
-.intro {
-    display: flex;
-    flex-wrap: wrap;
-    animation: type 3s steps(11);
-    overflow: hidden;
-    font-family: 'Cutive Mono', monospace;
-    color: white;
-    width: 13ch;
-    font-size: 4em;
-    justify-content: center;
-}
-@keyframes type {
-    0% {
-        width: 0ch;
-    }
-    100% {
-        width:13ch;
-    }
 }
 
 .myname {
