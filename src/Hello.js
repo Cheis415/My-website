@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { useSpring, animated } from 'react-spring';
 import "./Hello.css";
 import AOS from 'aos';
@@ -10,9 +10,9 @@ const AnimFeTurbulence = animated('feTurbulence')
 const AnimFeDisplacementMap = animated('feDisplacementMap')
 
 function Hello() {
-  const [open, toggle] = useState(false)
+  
   const { freq, scale, transform, opacity } = useSpring({
-    reverse: open,
+    
     from: { scale: 10, opacity: 0, transform: 'scale(0.9)', freq: '0.0175, 0.0' },
     to: { scale: 150, opacity: 1, transform: 'scale(1)', freq: '0.0, 0.0' },
     config: { duration: 3000 }
