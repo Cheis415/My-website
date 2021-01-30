@@ -1,5 +1,6 @@
 .container {
   background-size: cover;
+  background-position: center;
 }
 .transitions-item {
     height: auto;
@@ -15,7 +16,6 @@
     text-transform: uppercase;
     will-change: transform, opacity, height;
     white-space: nowrap;
-    cursor: pointer;
     line-height: 80px;
    
   }

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    
+  
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/LogoMakr-595SV9.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -36,10 +36,21 @@
           }
       };
       </script>
+        <script>
+          (function() {
+            let meta = document.createElement("meta");
+            meta.setAttribute('name','viewport');
+            let content = 'initial-scale=';
+            content += 1 / window.devicePixelRatio;
+            content += ',user-scalable=no';
+            meta.setAttribute('content', content);
+            document.getElementsByTagName('head')[0].appendChild(meta);
+          })();
+        </script>
     <script>
       (function(d, w, c) {
           w.ChatraID = 'rarMuz3ghrMYHCiax';
-          var s = d.createElement('script');
+          let s = d.createElement('script');
           w[c] = w[c] || function() {
               (w[c].q = w[c].q || []).push(arguments);
           };

@@ -1,12 +1,12 @@
 .boxes {
     margin-top: 2.5em;
     margin-bottom: 2.5em;
-    background-color: #007193;
+    background-color: transparent;
     overflow: hidden;
     height: auto;
-    width: 90vw;
+    width: 100%;
     box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
+    border-radius: 2vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -18,7 +18,7 @@
 
 .boxes:active {
     background-color: transparent;
-    opacity: .5;
+    /* opacity: .5; */
 }
 
 .grids {
@@ -44,7 +44,7 @@
 .name {
     font-size: 200px;
 }
-
+/* 
 .div1 {
     display: flex;
     flex-wrap: wrap;
@@ -53,7 +53,7 @@
     text-align: center;
     font-size: 5.5ch;
     justify-content: center;
-}
+} */
 
 .top-h1 {
     display: flex;
@@ -81,6 +81,15 @@
     display: flex;
     flex-direction: column;
     justify-content: center; 
+}
+
+.title {
+    width: 100%;
+    padding-right: 3vw;
+    font-size: 4vw;
+    position: absolute;
+    text-align: end;
+    justify-content: start;
 }
 
   @media screen and (max-width: 601px) {
