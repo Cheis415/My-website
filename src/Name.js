@@ -13,7 +13,7 @@ function Name() {
       { transform: 'perspective(600px) rotateX(0deg)' },
     ],
     leave: [{ color: '#c23369' }, { innerHeight: 0 }, { opacity: 0, height: 0 }],
-    update: { color: '#28b4d7', margin: "10px" },
+    update: { color: '#28b4d7' },
   })
 
   const reset = useCallback(() => {
