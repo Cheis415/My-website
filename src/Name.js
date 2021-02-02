@@ -31,7 +31,7 @@ function Name() {
     <div className="container">
       {transitions.map(({ item, props: { innerHeight, ...rest }, key }) => {
         return (
-        <animated.div className="transitions-item" key={key} style={rest} >
+        <animated.div aria-label="I'm a front-end developer" className="transitions-item" key={key} style={rest} >
           <animated.div style={{  height: innerHeight }}>{item}</animated.div>
         </animated.div>
       )})}

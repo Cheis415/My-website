@@ -5,8 +5,11 @@ import linkedin from "./img/linkedin-logo-png-clip-art.png";
 import github from "./img/githubpic.png";
 import resume from "./img/Resume.png";
 import resumeCopy from "./img/Chad Heisler Resume (1).pdf"
-function Wave() {
 
+function Wave() {
+  let waveText = `I am a Software Developer, thanks to the guidance of Code Tenderloin 
+  and Rithm School. Previously a carpenter and supervisor in construction, I'm applying
+  years of time-sensitive problem solving and collaboration skills (and a healthy sense of humor) to coding.`
 
   return (
     <div className="wrap" >
@@ -17,13 +20,13 @@ function Wave() {
       </svg>
     <div className="our-partners">
     <p className="about-me-header"><b>A little about me</b></p>
-    <p className="about-me"><b>I am a Software Developer, thanks to the guidance of Code Tenderloin and Rithm School. Previously a carpenter and supervisor in construction, I'm applying years of time-sensitive problem solving and collaboration skills (and a healthy sense of humor) to coding.</b> </p>
+    <p aria-label={waveText} className="about-me"><b>{waveText}</b> </p>
     <h3>Find me here</h3>
     <div className="our-partners-inner">
-        <a href="mailto:chadheisler5@gmail.com"><img className="gmail ic" src={gmail} alt="gmail" /></a>
-        <a href="https://github.com/Cheis415?tab=repositories"><img className="github ic" src={github} alt="github" /></a>
-        <a href="https://www.linkedin.com/in/chad-heisler/"><img className="linkedin ic" src={linkedin} alt="linkedin" /></a>
-        <a href={resumeCopy}><img className="ic" src={resume} alt="resume" /></a>
+        <a aria-label="Chads email" href="mailto:chadheisler5@gmail.com"><img className="gmail ic" src={gmail} alt="gmail" /></a>
+        <a aria-label="Chads github" href="https://github.com/Cheis415?tab=repositories"><img className="github ic" src={github} alt="github" /></a>
+        <a aria-label="chads Linkedin" href="https://www.linkedin.com/in/chad-heisler/"><img className="linkedin ic" src={linkedin} alt="linkedin" /></a>
+        <a aria-label="chads resume" href={resumeCopy}><img className="ic" src={resume} alt="resume" /></a>
     </div>
  </div>
  </div>

@@ -19,8 +19,8 @@ function AppCard({imageSource, text, title}) {
   return (
     <div data-aos="flip-left" className="Card-div" onClick={() => set(state => !state)}>
       <a.div className="c back" style={{opacity: opacity.interpolate(o => 1 - o), transform }} />
-      <a.img className="back" style={{opacity: opacity.interpolate(o => 1 - o), transform }} src={imageSource}>{title}</a.img>
-      <a.div className="c front" style={{ opacity, transform: transform.interpolate(t => `${t} rotateX(180deg)`) }} >
+      <a.img aria-label={title} className="back" style={{opacity: opacity.interpolate(o => 1 - o), transform }} src={imageSource}>{title}</a.img>
+      <a.div aria-label={text} className="c front" style={{ opacity, transform: transform.interpolate(t => `${t} rotateX(180deg)`) }} >
         <b className="text">{text}</b></a.div>
     </div>
   )
