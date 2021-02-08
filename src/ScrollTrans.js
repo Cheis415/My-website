@@ -38,7 +38,7 @@ function ScrollTrans() {
 
   let speakerTitle = "Speaker Box";
   let speakerText = `Not your usual twitter clone. This is a pure python app, built with jinja templates. This is fully functional with the ability to
-  like or dislike a post. We also put in a spotify widget so a user can bump their speakers while browsing. A postgreSQL database handles all the data
+  like or dislike a post, add friends, write posts and comments. We also put in a spotify widget so a user can bump their speakers while browsing. A postgreSQL database handles all the data
   storage. Click on the title in top right corner to see a demo!`
    
   useEffect(() => {
