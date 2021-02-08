@@ -23,10 +23,10 @@ function Wave() {
     <p aria-label={waveText} className="about-me"><b>{waveText}</b> </p>
     <h3>Find me here</h3>
     <div className="our-partners-inner">
-        <a aria-label="Chads email" href="mailto:chadheisler5@gmail.com"><img className="gmail ic" src={gmail} alt="gmail" /></a>
-        <a aria-label="Chads github" href="https://github.com/Cheis415?tab=repositories"><img className="github ic" src={github} alt="github" /></a>
-        <a aria-label="chads Linkedin" href="https://www.linkedin.com/in/chad-heisler/"><img className="linkedin ic" src={linkedin} alt="linkedin" /></a>
-        <a aria-label="chads resume" href={resumeCopy}><img className="ic" src={resume} alt="resume" /></a>
+        <a target='_blank' aria-label="Chads email" href="mailto:chadheisler5@gmail.com"><img className="gmail ic" src={gmail} alt="gmail" /></a>
+        <a target='_blank' aria-label="Chads github" href="https://github.com/Cheis415?tab=repositories"><img className="github ic" src={github} alt="github" /></a>
+        <a target='_blank' aria-label="chads Linkedin" href="https://www.linkedin.com/in/chad-heisler/"><img className="linkedin ic" src={linkedin} alt="linkedin" /></a>
+        <a target='_blank' aria-label="chads resume" href={resumeCopy}><img className="ic" src={resume} alt="resume" /></a>
     </div>
  </div>
  </div>
