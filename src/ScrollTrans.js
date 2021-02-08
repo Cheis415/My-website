@@ -53,7 +53,7 @@ function ScrollTrans() {
           <div data-aos-once="true" data-aos="flip-left" className="boxes"><AppCard imageSource={micro} text={microText} /><a target='_blank' className="title" href="https://awesome-visvesvaraya-5b1e74.netlify.app">{microTitle}</a></div>
           <div data-aos-once="true" data-aos="flip-left" className="boxes"><AppCard imageSource={clever} text={cleverCouncil} /><a target='_blank' className="title" href="https://www.linkedin.com/company/clevercounsel-llc/">{cleverTitle}</a></div>
           <div data-aos-once="true" data-aos="flip-left" className="boxes"><AppCard imageSource={speaker} text={speakerText} /><a target='_blank' className="title" href="https://united-twitter-clone.herokuapp.com/">{speakerTitle}</a></div>
-          {/* <div data-aos-once="true" data-aos="flip-left" className="boxes"><AppCard imageSource={clash} text={clashText} /><h1 className="title">{clashTitle}</h1></div> */}
+          
         </div>
       </div>
   )
