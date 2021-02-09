@@ -87,6 +87,7 @@
 .title {
     color: #00475e;
     display: inline-block;
+    margin-top: 20px;
     margin-left: 67%;
     font-size: 4vw;
     position: absolute;
@@ -97,6 +98,7 @@
 @media screen and (max-width: 1224px) {
     .title {
         margin-left: 30vw;
+        margin-top: 20px;
         color: #00475e;
         display: inline-block;
         font-size: 4vw;
