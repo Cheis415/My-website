@@ -50,7 +50,7 @@ function ScrollTrans() {
         <div className="grids">
           <div aria-label="Here are some projects. Click to learn more" data-aos-once="true" data-aos="fade-right" className="arrow" ><h1 className="top-h1">Here are some projects</h1>
                                       <h1  className="bot-h1"> Click to learn more</h1><img src={arrow} alt="arrow"></img></div>
-          <div data-aos-once="true" data-aos="flip-left" className="boxes"><AppCard imageSource={micro} text={microText} /><a target='_blank' rel="noreferrer" className="title" href="https://awesome-visvesvaraya-5b1e74.netlify.app">{microTitle}</a></div>
+          <div data-aos-once="true" data-aos="flip-left" className="boxes"><AppCard imageSource={micro} text={microText} /><a target='_blank' rel="noreferrer"  className="title" href="https://awesome-visvesvaraya-5b1e74.netlify.app">{microTitle}</a></div>
           <div data-aos-once="true" data-aos="flip-left" className="boxes"><AppCard imageSource={clever} text={cleverCouncil} /><a target='_blank' rel="noreferrer" className="title" href="https://www.linkedin.com/company/clevercounsel-llc/">{cleverTitle}</a></div>
           <div data-aos-once="true" data-aos="flip-left" className="boxes"><AppCard imageSource={speaker} text={speakerText} /><a target='_blank' rel="noreferrer" className="title" href="https://united-twitter-clone.herokuapp.com/">{speakerTitle}</a></div>
           
